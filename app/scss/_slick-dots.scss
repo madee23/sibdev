@@ -1,0 +1,32 @@
+.main__slider > ul.slick-dots {
+	position: absolute;
+	left: 50%;
+	transform: translate(-53px);
+	bottom: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 45px;
+	font-size: 11px;
+	@extend %Rubik-500;
+	li {
+		transition: all 0.3s ease-in-out;
+		opacity: 0.3;
+		text-align: center;
+		line-height: 30px;
+		button {
+			background-color: rgba($color: #fff, $alpha: 1);
+			border-radius: 50%;
+			border: none;
+			width: 30px;
+			height: 30px;
+			position: relative;
+			color: $accent-color;
+		}
+		&.slick-active {
+			border-radius: 50%;
+			opacity: 1;
+		}
+	}
+}

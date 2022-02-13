@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.min.css">
+	</head>
+
+	<body>
+		<header class="header">
+
+			<div class="container">
+
+				<div class="header__wrapper">
+
+					<div class="logo">
+						<img src="images/header_logo.svg" alt="" class="logo__img">
+						<span class="logo__text">Glee.</span>
+					</div>
+
+					<nav class="header__menu">
+						<ul class="header__menu-list">
+							<li class="header__menu-list-item">
+								<a href="index.html" class="header__menu-list-link">Home +</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="" class="header__menu-list-link">About</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="" class="header__menu-list-link">Services</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="" class="header__menu-list-link">Pages +</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="" class="header__menu-list-link">News</a>
+							</li>
+							<li class="header__menu-list-item">
+								<a href="" class="header__menu-list-link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+
+					<div class="user-nav">
+
+						<a href="#" class="user-nav__search">
+							<img class="user-nav__search-img" src="images/user-nav_search.svg" alt="">
+						</a>
+
+						<div class="user-nav__icons">
+							<a class="user-nav__icons-link" href="#">
+								<img class="user-nav__icons-img" src="images/heart.svg" alt="">
+								<span class="user-nav__icons-num">3</span>
+							</a>
+							<a class="user-nav__icons-link" href="#">
+								<img class="user-nav__icons-img" src="images/cart.svg" alt="">
+								<span class="user-nav__icons-num">3</span>
+							</a>
+						</div>
+
+						<div class="user-nav__btn">
+							<img src="images/btn.svg" alt="" class="user-nav user-nav--btn-img">
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</header>
+
+		<main class="main">
+			<section class="top">
+				<h3 class="top__title">Products</h3>
+				<div class="breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="index.html">Home</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a class="breadcrumbs__link" href="product.html">Product</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<section class="product">
+			<div class="product__inner">
+				<div class="product__filters">
+
+					<div class="product__filters-item filter-category">
+						<h3 class="product__filters-title">CATEGORY</h3>
+						<form class="product__filters-form">
+							<label class="filter-category__label">
+								<div class="filter-category__box">
+									<input class="filter-category__input" type="checkbox" name="" id="">
+									<div class="filter-category__checkbox">
+										<span>Chair</span>
+										<img src="images/shop/arr_right.svg" alt="">
+									</div>
+								</div>
+							</label>
+							<label class="filter-category__label">
+								<div class="filter-category__box">
+									<input class="filter-category__input" type="checkbox" name="" id="">
+									<div class="filter-category__checkbox">
+										<span>Table</span>
+										<img src="images/shop/arr_right.svg" alt="">
+									</div>
+								</div>
+							</label>
+							<label class="filter-category__label">
+								<div class="filter-category__box">
+									<input class="filter-category__input" type="checkbox" name="" id="">
+									<div class="filter-category__checkbox">
+										<span>Lamp</span>
+										<img src="images/shop/arr_right.svg" alt="">
+									</div>
+								</div>
+							</label>
+							<label class="filter-category__label">
+								<div class="filter-category__box">
+									<input class="filter-category__input" type="checkbox" name="" id="">
+									<div class="filter-category__checkbox">
+										<span>Watch</span>
+										<img src="images/shop/arr_right.svg" alt="">
+									</div>
+								</div>
+							</label>
+							<label class="filter-category__label">
+								<div class="filter-category__box">
+									<input class="filter-category__input" type="checkbox" name="" id="">
+									<div class="filter-category__checkbox">
+										<span>Clock</span>
+										<img src="images/shop/arr_right.svg" alt="">
+									</div>
+								</div>
+							</label>
+						</form>
+					</div>
+
+					<div class="product__filters-item filter-price">
+						<h3 class="product__filters-title">PRICE</h3>
+						<form class="product__filters-form filter-price__form">
+							<input type="text" class="filter-price__input"
+								   data-type="double"
+								   data-min="0"
+								   data-max="999"
+								   data-from="200"
+								   data-to="800">
+							<label class="filter-price__label">
+								<span>
+									Price:
+									$<span class="filter-price__from"></span> -
+									$<span class="filter-price__to"></span>
+								</span>
+							</label>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="partners">
+			<div class="partners__inner">
+				<img class="partners__img" src="images/partners/1.png" alt="">
+				<img class="partners__img" src="images/partners/2.png" alt="">
+				<img class="partners__img" src="images/partners/3.png" alt="">
+				<img class="partners__img" src="images/partners/4.png" alt="">
+				<img class="partners__img" src="images/partners/5.png" alt="">
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class='container footer__container'>
+				<div class="footer__inner">
+
+					<div class="footer__top">
+						<div class="footer__contact">
+							<div class="logo">
+								<img src="images/header_logo.svg" alt="" class="logo__img">
+								<span class="logo__text">Glee.</span>
+							</div>
+							<p class="footer__contact-adress">ADDRESS: 4772 Wines Lane
+								Houston, TX 77032</p>
+							<a href="tel:+832-347-5843" class="footer__contact-phone">Telephone: +832-347-5843</a>
+							<a href="mailto:contact@Glee.com" class="footer__contact-mail">Email: contact@Glee.com</a>
+						</div>
+
+						<div class="footer__services">
+							<h6 class="footer__title">Services</h6>
+							<a href="" class="footer__link">About us</a>
+							<a href="" class="footer__link">Return Policy</a>
+							<a href="" class="footer__link">Our Blog</a>
+							<a href="" class="footer__link">Contact Us</a>
+							<a href="" class="footer__link">Terms & Condition</a>
+						</div>
+
+						<div class="footer__account">
+							<h6 class="footer__title">Account</h6>
+							<a href="" class="footer__link">Your Account</a>
+							<a href="" class="footer__link">Checkout</a>
+							<a href="" class="footer__link">Login</a>
+							<a href="" class="footer__link">Register</a>
+						</div>
+
+						<div class="footer__subscribe">
+							<h6 class="footer__title">newsletter</h6>
+							<p class="footer__text">Subscribe by our newsletter and get
+								update protidin.</p>
+							<form action="" class="footer__form">
+								<input class="footer__form-input" type="text" placeholder="Email address" required>
+								<button class="footer__form-submit" type="submit">Subscribe</button>
+							</form>
+						</div>
+
+					</div>
+
+					<div class="footer__bottom">
+						<p class="footer__copy">©2020 CopyRight Example. All rights reserved. </p>
+						<ul class="footer__mnu">
+							<li class="footer__mnu-item"><a href="">Home</a></li>
+							<li class="footer__mnu-item"><a href="">About</a></li>
+							<li class="footer__mnu-item"><a href="">Blog</a></li>
+							<li class="footer__mnu-item"><a href="">Contact</a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/main.min.js"></script>
+	</body>
+
+</html>
